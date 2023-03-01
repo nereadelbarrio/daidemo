@@ -2,132 +2,284 @@
 
 @charset "UTF-8";
 @font-face {
-    font-family: Conv_BebasKai;
-    src: url(assets/fonts/BebasKai-Regular.eot);
-    src: local("☺"),url(assets/fonts/BebasKai-Regular.woff) format("woff"),url(assets/fonts/BebasKai-Regular.ttf) format("truetype"),url(assets/fonts/BebasKai-Regular.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-Black.eot);
-    src: local("☺"),url(assets/fonts/Calibre-Black.woff) format("woff"),url(assets/fonts/Calibre-Black.ttf) format("truetype"),url(assets/fonts/Calibre-Black.svg) format("svg");
-    font-weight: 900;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-Bold.eot);
-    src: local("☺"),url(assets/fonts/Calibre-Bold.woff) format("woff"),url(assets/fonts/Calibre-Bold.ttf) format("truetype"),url(assets/fonts/Calibre-Bold.svg) format("svg");
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-BoldItalic.eot);
-    src: local("☺"),url(assets/fonts/Calibre-BoldItalic.woff) format("woff"),url(assets/fonts/Calibre-BoldItalic.ttf) format("truetype"),url(assets/fonts/Calibre-BoldItalic.svg) format("svg");
-    font-weight: 700;
-    font-style: italic
-}
-
-@font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-Semibold.eot);
-    src: local("☺"),url(assets/fonts/Calibre-Semibold.woff) format("woff"),url(assets/fonts/Calibre-Semibold.ttf) format("truetype"),url(assets/fonts/Calibre-Semibold.svg) format("svg");
-    font-weight: 600;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-Medium.eot);
-    src: local("☺"),url(assets/fonts/Calibre-Medium.woff) format("woff"),url(assets/fonts/Calibre-Medium.ttf) format("truetype"),url(assets/fonts/Calibre-Medium.svg) format("svg");
+    font-family: 'Abril Fatface';
+    src: url('fonts/AbrilFatface-Regular.eot');
+    src: url('fonts/AbrilFatface-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AbrilFatface-Regular.woff2') format('woff2'),
+        url('fonts/AbrilFatface-Regular.woff') format('woff'),
+        url('fonts/AbrilFatface-Regular.ttf') format('truetype'),
+        url('fonts/AbrilFatface-Regular.svg#AbrilFatface-Regular') format('svg');
     font-weight: 500;
-    font-style: normal
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-Regular.eot);
-    src: local("☺"),url(assets/fonts/Calibre-Regular.woff) format("woff"),url(assets/fonts/Calibre-Regular.ttf) format("truetype"),url(assets/fonts/Calibre-Regular.svg) format("svg");
+    font-family: 'Arial';
+    src: url('fonts/ArialMT.eot');
+    src: url('fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('fonts/ArialMT.woff2') format('woff2'),
+        url('fonts/ArialMT.woff') format('woff'),
+        url('fonts/ArialMT.ttf') format('truetype'),
+        url('fonts/ArialMT.svg#ArialMT') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flama';
+    src: url('fonts/Flama-Extrabold.eot');
+    src: url('fonts/Flama-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Flama-Extrabold.woff2') format('woff2'),
+        url('fonts/Flama-Extrabold.woff') format('woff'),
+        url('fonts/Flama-Extrabold.ttf') format('truetype'),
+        url('fonts/Flama-Extrabold.svg#Flama-Extrabold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Big Caslon';
+    src: url('fonts/BigCaslon-Medium.eot');
+    src: url('fonts/BigCaslon-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BigCaslon-Medium.woff2') format('woff2'),
+        url('fonts/BigCaslon-Medium.woff') format('woff'),
+        url('fonts/BigCaslon-Medium.ttf') format('truetype'),
+        url('fonts/BigCaslon-Medium.svg#BigCaslon-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('fonts/InterTight-Bold.eot');
+    src: url('fonts/InterTight-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/InterTight-Bold.woff2') format('woff2'),
+        url('fonts/InterTight-Bold.woff') format('woff'),
+        url('fonts/InterTight-Bold.ttf') format('truetype'),
+        url('fonts/InterTight-Bold.svg#InterTight-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('fonts/AcuminPro-ExtraLight.eot');
+    src: url('fonts/AcuminPro-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/AcuminPro-ExtraLight.woff2') format('woff2'),
+        url('fonts/AcuminPro-ExtraLight.woff') format('woff'),
+        url('fonts/AcuminPro-ExtraLight.ttf') format('truetype'),
+        url('fonts/AcuminPro-ExtraLight.svg#AcuminPro-ExtraLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('fonts/InterTight-Black.eot');
+    src: url('fonts/InterTight-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/InterTight-Black.woff2') format('woff2'),
+        url('fonts/InterTight-Black.woff') format('woff'),
+        url('fonts/InterTight-Black.ttf') format('truetype'),
+        url('fonts/InterTight-Black.svg#InterTight-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Flama';
+    src: url('fonts/Flama-Light.eot');
+    src: url('fonts/Flama-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Flama-Light.woff2') format('woff2'),
+        url('fonts/Flama-Light.woff') format('woff'),
+        url('fonts/Flama-Light.ttf') format('truetype'),
+        url('fonts/Flama-Light.svg#Flama-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-BoldItalic.eot');
+    src: url('fonts/Inter-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Inter-BoldItalic.woff2') format('woff2'),
+        url('fonts/Inter-BoldItalic.woff') format('woff'),
+        url('fonts/Inter-BoldItalic.ttf') format('truetype'),
+        url('fonts/Inter-BoldItalic.svg#Inter-BoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('fonts/InterTight-ExtraBold.eot');
+    src: url('fonts/InterTight-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/InterTight-ExtraBold.woff2') format('woff2'),
+        url('fonts/InterTight-ExtraBold.woff') format('woff'),
+        url('fonts/InterTight-ExtraBold.ttf') format('truetype'),
+        url('fonts/InterTight-ExtraBold.svg#InterTight-ExtraBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('fonts/InterTight-ExtraLight.eot');
+    src: url('fonts/InterTight-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/InterTight-ExtraLight.woff2') format('woff2'),
+        url('fonts/InterTight-ExtraLight.woff') format('woff'),
+        url('fonts/InterTight-ExtraLight.ttf') format('truetype'),
+        url('fonts/InterTight-ExtraLight.svg#InterTight-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('fonts/InterTight-Medium.eot');
+    src: url('fonts/InterTight-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/InterTight-Medium.woff2') format('woff2'),
+        url('fonts/InterTight-Medium.woff') format('woff'),
+        url('fonts/InterTight-Medium.ttf') format('truetype'),
+        url('fonts/InterTight-Medium.svg#InterTight-Medium') format('svg');
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-RegularItalic.eot);
-    src: local("☺"),url(assets/fonts/Calibre-RegularItalic.woff) format("woff"),url(assets/fonts/Calibre-RegularItalic.ttf) format("truetype"),url(assets/fonts/Calibre-RegularItalic.svg) format("svg");
+    font-family: 'Inter Tight';
+    src: url('fonts/InterTight-Light.eot');
+    src: url('fonts/InterTight-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/InterTight-Light.woff2') format('woff2'),
+        url('fonts/InterTight-Light.woff') format('woff'),
+        url('fonts/InterTight-Light.ttf') format('truetype'),
+        url('fonts/InterTight-Light.svg#InterTight-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('fonts/InterTight-Regular.eot');
+    src: url('fonts/InterTight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/InterTight-Regular.woff2') format('woff2'),
+        url('fonts/InterTight-Regular.woff') format('woff'),
+        url('fonts/InterTight-Regular.ttf') format('truetype'),
+        url('fonts/InterTight-Regular.svg#InterTight-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('fonts/Lato-Regular.eot');
+    src: url('fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Lato-Regular.woff2') format('woff2'),
+        url('fonts/Lato-Regular.woff') format('woff'),
+        url('fonts/Lato-Regular.ttf') format('truetype'),
+        url('fonts/Lato-Regular.svg#Lato-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Medium.eot');
+    src: url('fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('fonts/Montserrat-Medium.woff') format('woff'),
+        url('fonts/Montserrat-Medium.ttf') format('truetype'),
+        url('fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg');
     font-weight: 400;
-    font-style: italic
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-Light.eot);
-    src: local("☺"),url(assets/fonts/Calibre-Light.woff) format("woff"),url(assets/fonts/Calibre-Light.ttf) format("truetype"),url(assets/fonts/Calibre-Light.svg) format("svg");
-    font-weight: 100;
-    font-style: normal
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.eot');
+    src: url('fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff'),
+        url('fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_Calibre;
-    src: url(assets/fonts/Calibre-LightItalic.eot);
-    src: local("☺"),url(assets/fonts/Calibre-LightItalic.woff) format("woff"),url(assets/fonts/Calibre-LightItalic.ttf) format("truetype"),url(assets/fonts/Calibre-LightItalic.svg) format("svg");
-    font-weight: 100;
-    font-style: italic
+    font-family: 'Lato';
+    src: url('fonts/Lato-Black.eot');
+    src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Lato-Black.woff2') format('woff2'),
+        url('fonts/Lato-Black.woff') format('woff'),
+        url('fonts/Lato-Black.ttf') format('truetype'),
+        url('fonts/Lato-Black.svg#Lato-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_JeanLuc;
-    src: url(assets/fonts/JeanLuc-Thin.eot);
-    src: local("☺"),url(assets/fonts/JeanLuc-Thin.woff) format("woff"),url(assets/fonts/JeanLuc-Thin.ttf) format("truetype"),url(assets/fonts/JeanLuc-Thin.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Conv_zwijsen-dyslexie-print;
-    src: url(assets/fonts/zwijsen-dyslexie-print.eot);
-    src: local("☺"),url(assets/fonts/zwijsen-dyslexie-print.woff) format("woff"),url(assets/fonts/zwijsen-dyslexie-print.ttf) format("truetype"),url(assets/fonts/zwijsen-dyslexie-print.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: Conv_PT_Sans-Web;
-    src: url(assets/fonts/PT_Sans-Web-Bold.eot);
-    src: local("☺"),url(assets/fonts/PT_Sans-Web-Bold.woff) format("woff"),url(assets/fonts/PT_Sans-Web-Bold.ttf) format("truetype"),url(assets/fonts/PT_Sans-Web-Bold.svg) format("svg");
+    font-family: 'Inter Tight';
+    src: url('fonts/InterTight-SemiBold.eot');
+    src: url('fonts/InterTight-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/InterTight-SemiBold.woff2') format('woff2'),
+        url('fonts/InterTight-SemiBold.woff') format('woff'),
+        url('fonts/InterTight-SemiBold.ttf') format('truetype'),
+        url('fonts/InterTight-SemiBold.svg#InterTight-SemiBold') format('svg');
     font-weight: 600;
-    font-style: normal
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_PT_Sans-Web;
-    src: url(assets/fonts/PT_Sans-Web-BoldItalic.eot);
-    src: local("☺"),url(assets/fonts/PT_Sans-Web-BoldItalic.woff) format("woff"),url(assets/fonts/PT_Sans-Web-BoldItalic.ttf) format("truetype"),url(assets/fonts/PT_Sans-Web-BoldItalic.svg) format("svg");
-    font-weight: 600;
-    font-style: italic
+    font-family: 'Noto Sans';
+    src: url('fonts/NotoSans-Regular.eot');
+    src: url('fonts/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NotoSans-Regular.woff2') format('woff2'),
+        url('fonts/NotoSans-Regular.woff') format('woff'),
+        url('fonts/NotoSans-Regular.ttf') format('truetype'),
+        url('fonts/NotoSans-Regular.svg#NotoSans-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_PT_Sans-Web;
-    src: url(assets/fonts/PT_Sans-Web-Italic.eot);
-    src: local("☺"),url(assets/fonts/PT_Sans-Web-Italic.woff) format("woff"),url(assets/fonts/PT_Sans-Web-Italic.ttf) format("truetype"),url(assets/fonts/PT_Sans-Web-Italic.svg) format("svg");
-    font-weight: 400;
-    font-style: italic
+    font-family: 'Trebuchet MS';
+    src: url('fonts/TrebuchetMS.eot');
+    src: url('fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TrebuchetMS.woff2') format('woff2'),
+        url('fonts/TrebuchetMS.woff') format('woff'),
+        url('fonts/TrebuchetMS.ttf') format('truetype'),
+        url('fonts/TrebuchetMS.svg#TrebuchetMS') format('svg');
+    font-weight: 500;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: Conv_PT_Sans-Web;
-    src: url(assets/fonts/PT_Sans-Web-Regular.eot);
-    src: local("☺"),url(assets/fonts/PT_Sans-Web-Regular.woff) format("woff"),url(assets/fonts/PT_Sans-Web-Regular.ttf) format("truetype"),url(assets/fonts/PT_Sans-Web-Regular.svg) format("svg");
-    font-weight: 400;
-    font-style: normal
+    font-family: 'Trebuchet MS';
+    src: url('fonts/TrebuchetMS-Italic.eot');
+    src: url('fonts/TrebuchetMS-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TrebuchetMS-Italic.woff2') format('woff2'),
+        url('fonts/TrebuchetMS-Italic.woff') format('woff'),
+        url('fonts/TrebuchetMS-Italic.ttf') format('truetype'),
+        url('fonts/TrebuchetMS-Italic.svg#TrebuchetMS-Italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
 }
+
+@font-face {
+    font-family: 'Superclarendon Bl';
+    src: url('fonts/SuperclarendonBl.eot');
+    src: url('fonts/SuperclarendonBl.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SuperclarendonBl.woff2') format('woff2'),
+        url('fonts/SuperclarendonBl.woff') format('woff'),
+        url('fonts/SuperclarendonBl.ttf') format('truetype'),
+        url('fonts/SuperclarendonBl.svg#SuperclarendonBl') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+
+
 
 b,strong {
     font-weight: 600
