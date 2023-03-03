@@ -279,19 +279,23 @@
 
 
 
-
-
-b,strong {
+b,
+strong {
     font-weight: 600
 }
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff
 }
 
-#indice .units ul li.active:not(.disabled),#indice .units ul li:focus:not(.disabled),#indice .units ul li:hover:not(.disabled),#list-units .unittag_no_unidad_daidemo.active:not(.disabled),#list-units .unittag_no_unidad_daidemo:hover,body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
+#indice .units ul li.active:not(.disabled),
+#indice .units ul li:focus:not(.disabled),
+#indice .units ul li:hover:not(.disabled),
+#list-units .unittag_no_unidad_daidemo.active:not(.disabled),
+#list-units .unittag_no_unidad_daidemo:hover,
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
     background-color: #000!important
 }
 
@@ -422,7 +426,8 @@ button.btn.btn-primary.disabled {
     border-radius: 50%
 }
 
-#indice .unit-content .material .item .imagen.archivo:after,#indice .unit-content .material .item .imagen.pdf:after {
+#indice .unit-content .material .item .imagen.archivo:after,
+#indice .unit-content .material .item .imagen.pdf:after {
     background-image: url(assets/images/icono_archivo_materialapoyo_daidemo.png);
     background-color: #000;
     border-radius: 50%
@@ -494,10 +499,10 @@ button.btn.btn-primary.disabled {
 }
 
 body {
-    font-size: 2rem;
-    font-weight: 400;
-    font-family: Conv_Calibre;
-    color: #000
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Inter Tight';
+    color: #000;
 }
 
 .slide-wrapper,body {
@@ -836,7 +841,7 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 .bck-title-1 {
-    color: #fff;
+    color: #000;
     font-size: 13rem;
     padding-bottom: 0;
     margin-left: 0;
