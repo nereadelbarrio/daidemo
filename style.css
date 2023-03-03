@@ -117,7 +117,7 @@
         url('fonts/InterTight-ExtraBold.woff') format('woff'),
         url('fonts/InterTight-ExtraBold.ttf') format('truetype'),
         url('fonts/InterTight-ExtraBold.svg#InterTight-ExtraBold') format('svg');
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
 }
 
@@ -141,7 +141,7 @@
         url('fonts/InterTight-Medium.woff') format('woff'),
         url('fonts/InterTight-Medium.ttf') format('truetype'),
         url('fonts/InterTight-Medium.svg#InterTight-Medium') format('svg');
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
 }
 
