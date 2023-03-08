@@ -675,17 +675,23 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title,body:not
 }
 
 #actividad .content .header .title h3 {
-    background: #fff;
-    color: #e30613;
+    background: #E2EED6;
+    color: #000;
     -moz-width: fit-content;
     -webkit-width: fit-content;
     -ms-width: fit-content;
     -o-width: fit-content;
     width: fit-content;
-    padding: 5px 10px 0 0;
-    font-weight: 700;
+    width: fit-content;
+    padding: 9px 15px 9px 28px;
     font-size: 2.5rem;
-    margin-top: 0
+    margin-top: 0;
+}
+
+#actividad .content .header .title {
+    min-height: 0;
+    background: #E2EED6;
+    padding: 0;
 }
 
 #actividad .content .header .title h3:before {
@@ -842,11 +848,11 @@ body.is_app .daidemo-navbar.ocultar {
 
 .bck-title-1 {
     color: #000;
-    font-size: 13rem;
-    padding-bottom: 0;
-    margin-left: 0;
+    font-size: 6rem;
     font-weight: 700;
-    border-bottom: none
+    background-color: #E2EED6;
+    padding: 23px 15px 24px 15px;
+    border-radius: 0 0 0 33px;
 }
 
 .bck-title-1:before {
@@ -2762,7 +2768,7 @@ hr {
     position: relative;
     margin: 0;
     text-align: center;
-    padding: 8px 10px 0;
+    padding: 3px 10px;
     font-size: 2.2rem;
     text-decoration: none
 }
