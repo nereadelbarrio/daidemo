@@ -998,14 +998,17 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 .bck-enfasis-1 {
-    color: #323232;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-    top: -.5em
+    font-size: 100px;
+    font-weight: 700;
+    position: absolute;
+    color: #000;
+    background-color: #E2EED6;
+    width: 119px;
+    height: 119px;
+    padding: 7px 1px 0;
+    text-align: center;
+    border-radius: 100%;
+    font-family: 'Trebuchet MS';
 }
 
 .bck-enfasis-2 {
