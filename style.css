@@ -848,7 +848,7 @@ body.is_app .daidemo-navbar.ocultar {
 
 .bck-title-1 {
     color: #000;
-    font-size: 6rem;
+    font-size: 50px;
     font-weight: 700;
     background-color: #E2EED6;
     padding: 23px 15px 24px 15px;
@@ -998,17 +998,18 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 .bck-enfasis-1 {
-    font-size: 100px;
+    font-size: 112px;
     font-weight: 700;
     position: absolute;
     color: #000;
     background-color: #E2EED6;
-    width: 119px;
-    height: 119px;
-    padding: 7px 1px 0;
+    width: 150px;
+    height: 150px;
+    padding: 52px 1px 0;
     text-align: center;
     border-radius: 100%;
     font-family: 'Trebuchet MS';
+    margin-top: 20px;
 }
 
 .bck-enfasis-2 {
