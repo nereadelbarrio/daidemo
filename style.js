@@ -99,7 +99,7 @@
 				{ name: 'Icono Hablar', element: 'span', attributes: { 'class': 'icon icon-hablar' } },
 				{ name: 'Icono Leer', element: 'span', attributes: { 'class': 'icon icon-leer' } },
 				{ name: 'Icono Escrbir', element: 'span', attributes: { 'class': 'icon icon-escribir' } },
-				{ name: 'Icono Flecha Azul', element: 'span', attributes: { 'class': 'icon icon-flechaazul' } },
+				{ name: 'Icono Pillole di Fonetica', element: 'span', attributes: { 'class': 'icon icon-pillole_fonetica' } },
 				{ name: 'Icono Dados', element: 'span', attributes: { 'class': 'icon icon-dados' } },
 				{ name: 'Icono Colores', element: 'span', attributes: { 'class': 'icon icon-colores' } },
 				{ name: 'Icono Exclamación', element: 'span', attributes: { 'class': 'icon icon-exclamacion' } },
