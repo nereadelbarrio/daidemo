@@ -1195,7 +1195,7 @@ hr {
         font-size: 22px;
         width: 31px;
         margin-top: 0;
-        left: -25px;
+        left: -23px;
         top: 0;
 }
 
@@ -1205,7 +1205,7 @@ hr {
 #actividad .content .workspace ul li .bck-ol-2 {
     list-style-type: none;
     counter-reset: bck-li-counter;
-    padding-left: 44px
+    padding-left: 38px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li,
