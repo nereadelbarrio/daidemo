@@ -795,7 +795,7 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 #actividad .player.audio {
-    background-image: url(assets/images/icono_audio_daidemo.png);
+    background-image: url(images/icono_audio_dai.png);
     color: #fff;
     vertical-align: middle
 }
@@ -2051,28 +2051,25 @@ hr {
 
 
 
-.bck-box.bck-box-4 {
-    background: transparent;
-    border: 0;
-    text-align: left;
-    border-radius: 0 0 20px 20px;
-    box-shadow: 11px 9px 9px -3px #b8b8b5
+.bck-box.bck-box.bck-box-4 {
+    background: #D0DDA2;
+    padding: 15px;
+    color: inherit;
+    margin-top: 0;
+    border-radius: 47px 0 47px 47px;
 }
 
-.bck-box-4>.bck-title {
-    border: 0;
-    color: #fff;
+.bck-box.bck-box-4>.bck-title {
+    color: inherit;
     text-align: left;
-    font-size: 2rem;
-    background: #7b603d;
-    padding: 10px 20px 0;
-    font-weight: 700
+    padding: 10px;
+    border-radius: 0;
 }
 
 .bck-box.bck-box-4>.bck-content {
-    padding: 20px 27px;
-    background: #fff;
-    border-radius: 0 0 20px 20px
+    padding: 9px 15px;
+    border-bottom: none;
+    color: inherit;
 }
 
 .bck-box.bck-box-4>.bck-title:before {
