@@ -181,6 +181,20 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'magistral_honestyregular';
+    src: url('magistral_honesty-webfont.eot');
+    src: url('magistral_honesty-webfont.eot?#iefix') format('embedded-opentype'),
+         url('magistral_honesty-webfont.woff2') format('woff2'),
+         url('magistral_honesty-webfont.woff') format('woff'),
+         url('magistral_honesty-webfont.ttf') format('truetype'),
+         url('magistral_honesty-webfont.svg#magistral_honestyregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('fonts/Montserrat-Medium.eot');
