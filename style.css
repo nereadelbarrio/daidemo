@@ -3089,22 +3089,22 @@ hr {
 
 .item-container .icon-hablar:before {
     background-image: url(images/icono_hablar_dai.png);
-    width: 28px;
-    height: 22px;
+    width: 27px;
+    height: 28px;
     margin-right: 5px;
-    margin-top: -7px
+    margin-top: -3px;
 }
 
 .item-container .icon-leer:before {
     background-image: url(images/icono_leer_dai.png);
-    width: 18px;
-    height: 24px;
+    width: 23px;
+    height: 23px;
     margin-right: 5px;
-    margin-top: -7px
+    margin-top: -2px;
 }
 
-.item-container .icon-grupos-negro:before {
-    background-image: url(assets/images/icono_engrupos_negro_daidemo.png);
+.item-container .icon-escribir:before {
+    background-image: url(images/icono_escrbir_dai.png);
     width: 26px;
     height: 24px;
     margin-right: 5px;
