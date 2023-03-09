@@ -3072,8 +3072,8 @@ hr {
     margin-top: 0
 }
 
-.item-container .icon-parejas-negro:before {
-    background-image: url(assets/images/icono_enparejas_negro_daidemo.png);
+.item-container .icon-hablar:before {
+    background-image: url(assets/images/icono_hablar_dai.png);
     width: 28px;
     height: 22px;
     margin-right: 5px;
