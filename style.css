@@ -2077,29 +2077,47 @@ hr {
 }
 
 .bck-box.bck-box-5 {
-    background: transparent;
-    border: none;
-    text-align: left;
-    border-radius: 0
+    min-height: 0;
+    background-color: transparent;
+    border-radius: 0;
+    margin-top: 40px;
 }
 
-.bck-box-5>.bck-title {
-    border: 0;
+.bck-box.bck-box-5>.bck-title {
     color: #fff;
-    text-align: left;
-    font-size: 2rem;
-    background: #017c91;
-    padding: 10px 20px 0;
-    font-weight: 700
-}
-
-.bck-box.bck-box-5>.bck-content {
-    padding: 20px 27px;
-    background: #eff8f8
+    font-size: 1.6rem;
+    background-color: #303C50;
+    padding: 10px 20px;
+    width: 121px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    z-index: 500;
+    left: 1px;
+    border-radius: 103px 0px 0 108px;
 }
 
 .bck-box.bck-box-5>.bck-title:before {
-    display: none
+    background: url(images/icono_caja_parole.png);
+    content: "";
+    background-size: 54px;
+    background-repeat: no-repeat;
+    padding: 10px 23px 0 4px;
+    position: absolute;
+    left: 0;
+    z-index: 1000;
+    top: 0;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.bck-box.bck-box-5>.bck-content {
+    border: none;
+    z-index: 0;
+    background-color: #D3EBF3;
+    border-radius: 0;
+    padding: 18px 30px 10px 144px;
 }
 
 .bck-box.bck-box-6 {
