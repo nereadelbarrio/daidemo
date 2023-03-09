@@ -295,11 +295,11 @@
 
 b,
 strong {
-    font-weight: 600
+    font-weight: 500
 }
 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     color: #fff
 }
@@ -513,8 +513,8 @@ button.btn.btn-primary.disabled {
 }
 
 body {
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     font-family: 'Inter Tight';
     color: #000;
 }
@@ -524,11 +524,11 @@ body {
 }
 
 #actividad .pregunta .texto_curso {
-    font-size: 2.2rem
+    font-size: 18px;
 }
 
 #actividad textarea {
-    font-size: 20px
+    font-size: 18px;
 }
 
 .texto_curso p:last-of-type {
@@ -541,7 +541,7 @@ body {
 }
 
 #actividad .texto_curso {
-    font-size: 22px
+    font-size: 18px;
 }
 
 #actividad a,body:not(.edit) #actividad a:not(.cke_button):not(.zoom_flag_img) {
@@ -1915,28 +1915,24 @@ hr {
 }
 
 .bck-box.bck-box.bck-box-1 {
-    background: #aedef8;
+    background: #D0DDA2;
     padding: 15px;
     color: inherit;
     margin-top: 0;
-    border-radius: 20px;
-    box-shadow: 5px 5px 6px 0 #bababa
+    border-radius: 47px 0 47px 47px;
 }
 
 .bck-box.bck-box-1>.bck-title {
-    color: inherit;
+    olor: inherit;
     text-align: left;
-    background-color: #aedef8;
     padding: 10px;
-    border-radius: 0
+    border-radius: 0;
 }
 
 .bck-box.bck-box-1>.bck-content {
-    padding: 4px 10px;
+    padding: 9px 15px;
     border-bottom: none;
     color: inherit;
-    background-color: #aedef8;
-    font-size: 2.2rem
 }
 
 .bck-box.bck-box-2 {
