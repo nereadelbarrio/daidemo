@@ -1097,24 +1097,29 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 .bck-enfasis-8 {
-    color: #9e1981;
-    font-weight: 700
+    background-color: #B0C862;
+    padding: 0;
+}
+
+.bck-enfasis-9, .bck-enfasis-10 {
+    padding: 5px 32px 0 32px;
+    display: inline-block;
+    clip-path: polygon(90% 0,100% 50%,90% 100%,0 100%,0 50%,0 0);
 }
 
 .bck-enfasis-9 {
-    font-size: 22px;
-    background-color: #f49400;
-    padding: 10px 25px 5px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: Conv_Calibre
+    background-color: #99BC37;
+    color: #000;
+    font-weight: 700;
 }
 
 .bck-enfasis-10 {
-    color: #00a6ba;
-    font-weight: 700
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
 }
+
+
 
 .bck-enfasis-11 {
     background-color: #5c6cb0;
@@ -1162,7 +1167,7 @@ hr {
 #actividad .texto_curso li,#actividad .workspace ul li li {
     position: relative;
     margin-bottom: 10px;
-    font-size: 2.2rem
+    font-size: 18px;
 }
 
 #indice .unit-content .actividades .item .nota.ko {
@@ -1721,13 +1726,13 @@ hr {
 #actividad .popover-content ul.bck-ul-2 li:before {
     content: "";
     height: 8px;
-    width: 9px;
+    width: 8px;
     background-color: #333;
     color: #333;
     border-radius: 50%;
     position: absolute;
-    margin-top: 13px;
-    margin-left: 6px;
+    margin-top: 10px;
+    margin-left: -1px;
 }
 
 #actividad .content .cke_contents .bck-ul-3,#actividad .content .texto_curso .bck-ul-3,#actividad .content .workspace ul li .bck-ul-3 {
@@ -2151,23 +2156,22 @@ hr {
     background: transparent;
     border: 0;
     text-align: left;
-    border-radius: 0 0 20px 20px;
-    box-shadow: 3px 9px 9px 2px #b8b8b5
+    border-radius: 20px;
+    box-shadow: 9px 8px 7px 1px #a9a9a9;
 }
 
 .bck-box-7>.bck-title {
     border: 0;
-    color: #fff;
+    color: #000;
     text-align: left;
     font-size: 2rem;
-    background: #f49400;
     padding: 10px 20px 0;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .bck-box.bck-box-7>.bck-content {
     padding: 20px 27px;
-    background: #faf9f5;
+    background: #fff;
     border-radius: 0 0 20px 20px
 }
 
@@ -3205,8 +3209,8 @@ hr {
 .item-container .icon-pillole_fonetica:before {
     background-image: url(images/icono_pillole_fonetica_dai.png);
     margin-right: 5px;
-    width: 19px;
-    height: 18px
+    width: 103px;
+    height: 108px;
 }
 
 .item-container .icon-rubric:before {
