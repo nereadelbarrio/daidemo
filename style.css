@@ -1038,6 +1038,7 @@ body.is_app .daidemo-navbar.ocultar {
     border: 3px #9EBAC2 solid;
     padding: 5px 26px 5px 5px;
     border-radius: 5px;
+    font-weight: 500;
 }
 
 .bck-enfasis-3:before {
@@ -3093,8 +3094,8 @@ hr {
     margin-top: -7px
 }
 
-.item-container .icon-personasola-negro:before {
-    background-image: url(assets/images/icono_solo_negro_daidemo.png);
+.item-container .icon-leer:before {
+    background-image: url(images/icono_leer_dai.png);
     width: 18px;
     height: 24px;
     margin-right: 5px;
