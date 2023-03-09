@@ -1041,10 +1041,17 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 .bck-enfasis-3:before {
-    background-color: red;
-    width: 100%;
+    background-color: #9ebac2;
+    width: 115%;
     height: 100%;
-    position: relative;
+    position: absolute;
+    TOP: 0px;
+    left: 0px;
+    content: "";
+    border-radius: 2px 20px 20px 2px;
+    box-shadow: 0px 0px 0 3px #9ebac2;
+    outline: 3px solid #9ebac2;
+    z-index: -1;
 }
 
 .bck-enfasis-4 {
