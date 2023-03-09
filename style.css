@@ -1091,10 +1091,9 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 .bck-enfasis-7 {
-    background: #fff;
-    font-weight: 700;
-    color: #e30613;
-    padding: 10px 10px 2px 0
+    background-color: #fff;
+    padding: 3px 17px;
+    border-radius: 47px 0 47px 47px;
 }
 
 .bck-enfasis-8 {
@@ -2098,7 +2097,7 @@ hr {
 }
 
 .bck-box.bck-box-5>.bck-title:before {
-    background: url(images/icono_caja_parole.png);
+    background: url(images/icono_caja_dados.png);
     content: "";
     background-size: 54px;
     background-repeat: no-repeat;
