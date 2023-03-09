@@ -1122,36 +1122,40 @@ body.is_app .daidemo-navbar.ocultar {
 
 
 .bck-enfasis-11 {
-    background-color: #5c6cb0;
-    padding: 10px 25px 5px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: Conv_Calibre
+    background-color: #fff;
+    padding: 3px 17px;
+    border-radius: 47px 0 47px 47px;
+    border: 4px solid #C6D68D;
 }
 
 .bck-enfasis-12 {
-    color: #fff;
-    font-weight: 500;
-    background-color: #00b2c0;
-    padding: 11px 12px 4px
+    background-color: #fff;
+    padding: 3px 17px;
+    border-radius: 0 47px 47px 47px;
+    border: 4px solid #C6D68D;
 }
 
 .bck-enfasis-13 {
-    font-size: 16px
+    background-color: #fff;
+    padding: 3px 17px;
+    border-radius: 47px 47px 0 47px;
+    border: 4px solid #C6D68D;
 }
 
-.bck-enfasis-13,.bck-enfasis-14 {
-    background-color: #009b84;
-    padding: 10px 25px 5px;
-    color: #fff;
-    font-weight: 600;
-    font-family: Conv_Calibre
+.bck-enfasis-14 {
+    background-color: #fff;
+    padding: 3px 17px;
+    border-radius: 47px 47px 47px 0;
+    border: 4px solid #C6D68D;
 }
 
 .bck-enfasis-15 {
-    writing-mode: vertical-lr;
-    transform: rotate(180deg)
+    padding: 5px 44px 3px 13px;
+    display: inline-block;
+    clip-path: polygon(90% 0,100% 50%,90% 100%,0 100%,0 50%,0 0);
+    background-color: #99BC37;
+    color: #000;
+    font-weight: 700;
 }
 
 .bck-enfasis-16 {
