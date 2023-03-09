@@ -190,7 +190,7 @@
          url('magistral_honesty-webfont.woff') format('woff'),
          url('magistral_honesty-webfont.ttf') format('truetype'),
          url('magistral_honesty-webfont.svg#magistral_honestyregular') format('svg');
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
 
 }
