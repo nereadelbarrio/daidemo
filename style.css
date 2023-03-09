@@ -1698,31 +1698,36 @@ hr {
     font-weight: 400;
 }
 
-#actividad .content .cke_contents .bck-ul-2,#actividad .content .texto_curso .bck-ul-2,#actividad .content .workspace ul li .bck-ul-2 {
+#actividad .content .cke_contents .bck-ul-2,
+#actividad .content .texto_curso .bck-ul-2,
+#actividad .content .workspace ul li .bck-ul-2 {
     list-style-type: none
 }
 
-#actividad .content .cke_contents .bck-ul-2 li,#actividad .content .texto_curso .bck-ul-2 li,#actividad .content .workspace ul li .bck-ul-2 li,#actividad .popover-content .bck-ul-2 li {
+#actividad .content .cke_contents .bck-ul-2 li,
+#actividad .content .texto_curso .bck-ul-2 li,
+#actividad .content .workspace ul li .bck-ul-2 li,
+#actividad .popover-content .bck-ul-2 li {
     padding-left: 35px;
     position: relative;
     list-style: none;
     margin-bottom: 10px;
     margin-left: 8px;
-    font-size: 22px;
-    color: #2880c3
 }
 
-#actividad .content .cke_contents .bck-ul-2 li:before,#actividad .content .texto_curso ul.bck-ul-2 li:before,#actividad .content .workspace ul li ul.bck-ul-2 li:before,#actividad .popover-content ul.bck-ul-2 li:before {
+#actividad .content .cke_contents .bck-ul-2 li:before,
+#actividad .content .texto_curso ul.bck-ul-2 li:before,
+#actividad .content .workspace ul li ul.bck-ul-2 li:before,
+#actividad .popover-content ul.bck-ul-2 li:before {
     content: "";
-    height: 6px;
-    width: 6px;
-    background-color: transparent;
-    color: #2880c3;
+    height: 8px;
+    width: 9px;
+    background-color: #333;
+    color: #333;
     border-radius: 50%;
     position: absolute;
-    margin-top: 11px;
-    margin-left: -2px;
-    border: 1px solid #2880c3
+    margin-top: 13px;
+    margin-left: 6px;
 }
 
 #actividad .content .cke_contents .bck-ul-3,#actividad .content .texto_curso .bck-ul-3,#actividad .content .workspace ul li .bck-ul-3 {
