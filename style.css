@@ -301,7 +301,8 @@ strong {
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
     font-size: 18px;
     font-weight: 600;
-    color: #fff
+    color: #fff;
+
 }
 
 #indice .units ul li.active:not(.disabled),
@@ -313,12 +314,16 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
     background-color: #000!important
 }
 
-#indice .units ul li a .title,body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
-    color: #fff
+#indice .units ul li a .title {
+    color: #000;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
+    color: #fff;
 }
 
 #indice .units ul li {
-    background: #757575
+    background: #E2EED6;
 }
 
 button.btn.btn-primary.disabled {
@@ -517,6 +522,7 @@ body {
     font-weight: 500;
     font-family: 'Inter Tight';
     color: #000;
+    background-color: #fff;
 }
 
 .slide-wrapper,body {
@@ -633,7 +639,15 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title,body:not
     font-weight: 400
 }
 
-#book-index #indice .unit-content a:active,#book-index #indice .unit-content a:focus,#book-index #indice .unit-content a:hover,#indice .actividades a:active,#indice .actividades a:focus,#indice .actividades a:hover,#indice .units ul li a:active,#indice .units ul li a:focus,#indice .units ul li a:hover {
+#book-index #indice .unit-content a:active,
+#book-index #indice .unit-content a:focus,
+#book-index #indice .unit-content a:hover,
+#indice .actividades a:active,
+#indice .actividades a:focus,
+#indice .actividades a:hover,
+#indice .units ul li a:active,
+#indice .units ul li a:focus,
+#indice .units ul li a:hover {
     color: #7c7c7c!important
 }
 
