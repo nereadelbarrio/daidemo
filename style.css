@@ -331,7 +331,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 }
 
 button.btn.btn-primary.disabled {
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 6px
 }
 
@@ -349,7 +349,7 @@ button.btn.btn-primary.disabled {
 #indice .unit-content .actividades .item .title {
     word-wrap: break-word;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 500;
     margin: 0;
     display: inline-block;
     max-width: 300px;
@@ -563,7 +563,7 @@ body {
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
-    padding: 0 5px;
+    padding: 4px 5px;
     color: inherit;
     font-weight: 400;
     text-decoration: none
@@ -626,7 +626,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
 
 #book-index #indice .unit-content .actividades .item .title {
     font-size: 17px;
-    color: #000
+    color: #000;
+    margin-top: 0px;
 }
 
 #book-index #indice .unit-content .actividades .item .title:active,#book-index #indice .unit-content .actividades .item .title:focus,#book-index #indice .unit-content .actividades .item .title:hover {
@@ -2482,8 +2483,7 @@ hr {
 }
 
 .rf-foundword,.rf-wordcontainer {
-    font-family: Conv_Calibre;
-    font-size: 2.2rem
+    font-size: 18px;
 }
 
 .rf-wordcontainer {
@@ -2491,7 +2491,7 @@ hr {
 }
 
 .slide.crosswords-puzzle .enunciado {
-    font-size: 2.2rem;
+    font-size: 18px;
     margin-bottom: 10px
 }
 
@@ -2500,18 +2500,18 @@ hr {
 }
 
 .slide.crosswords .enunciados .enunciado {
-    font-size: 2.2rem
+    font-size: 18px;
 }
 
 .slide.crosswords .respuesta .indice {
-    font-size: 20px
+    font-size: 18px;
 }
 
 #actividad .workspace.multiple-choice .opcion p {
     padding: 15px 5px 7px 15px;
     margin: 0;
     text-align: left;
-    font-size: 2.2rem
+    font-size: 18px;
 }
 
 #actividad .workspace.multiple-choice .opcion.solucion {
@@ -2549,7 +2549,7 @@ hr {
     margin: 0;
     text-align: center;
     padding: 3px 10px;
-    font-size: 2.2rem;
+    font-size: 18px;
     text-decoration: none
 }
 
@@ -2631,7 +2631,7 @@ hr {
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 1px solid #ee3a54;
+    border: 1px solid #000;
     border-radius: 1px
 }
 
@@ -2642,11 +2642,11 @@ hr {
 #actividad .workspace.clasificar .clasificar_conjuntos .group-name-top {
     text-align: center;
     font-weight: 700;
-    border-bottom: 1px solid #ee3a54;
+    border-bottom: 1px solid #000;
     display: table;
     width: 100%;
     margin: -1px 0 0;
-    background-color: #ee3a54;
+    background-color: #000;
     color: #fff
 }
 
@@ -2655,7 +2655,7 @@ hr {
     height: 100%;
     min-height: 220px;
     word-wrap: break-word;
-    background-color: #fcd7d0
+    background-color: #e2eed6;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .classify-item {
@@ -2718,7 +2718,7 @@ hr {
 }
 
 #actividad .workspace.test .checkbox-option label.filter-label,#actividad .workspace.test .radio-option label.filter-label,#actividad .workspace.true-false .checkbox-option label.filter-label,#actividad .workspace.true-false .radio-option label.filter-label {
-    font-size: 2.2rem;
+    font-size: 18px;
     font-weight: 400;
     margin-left: 20px
 }
