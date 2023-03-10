@@ -452,6 +452,11 @@ button.btn.btn-primary.disabled {
     border-radius: 50%
 }
 
+#indice .unit-content .material .item .imagen.url:after {
+    background-color: #000;
+    border-radius: 50%;
+}
+
 #indice .unit-content .actividades .item {
     border-bottom: 1px solid #e5e5e5;
     position: relative;
