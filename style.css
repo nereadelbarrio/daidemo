@@ -1153,7 +1153,7 @@ body.is_app .daidemo-navbar.ocultar {
     padding: 5px 44px 3px 13px;
     display: inline-block;
     clip-path: polygon(90% 0,100% 50%,90% 100%,0 100%,0 50%,0 0);
-    background-color: #99BC37;
+    background-color: #C6D68D;
     color: #000;
     font-weight: 700;
 }
@@ -4320,9 +4320,21 @@ table td.bck-td-11 {
     background: #99BC37;
 }
 
+.activitytag_approfondiamo_dai #actividad .content .header .title {
+    min-height: 0;
+    background: #99BC37;
+    padding: 0;
+}
+
 /*activitytag_grammatica_dai*/
 .activitytag_grammatica_dai #actividad .content .header .title h3 {
     background: #FCE274;
+}
+
+.activitytag_grammatica_dai #actividad .content .header .title {
+    min-height: 0;
+    background: #fce274;
+    padding: 0;
 }
 
 .activitytag_grammatica_dai .bck-enfasis-11 {
