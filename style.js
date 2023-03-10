@@ -101,7 +101,7 @@
 				{ name: 'Icono Escrbir', element: 'span', attributes: { 'class': 'icon icon-escribir' } },
 				{ name: 'Icono Pillole di Fonetica', element: 'span', attributes: { 'class': 'icon icon-pillole_fonetica' } },
 				{ name: 'Icono Lupa', element: 'span', attributes: { 'class': 'icon icon-lupa' } },
-				{ name: 'Icono Colores', element: 'span', attributes: { 'class': 'icon icon-colores' } },
+				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon-video' } },
 				{ name: 'Icono Exclamación', element: 'span', attributes: { 'class': 'icon icon-exclamacion' } },
 				{ name: 'Icono Exclamación morada', element: 'span', attributes: { 'class': 'icon icon-exclamacionmorada' } },
 				{ name: 'Icono Exclamación morada inversa', element: 'span', attributes: { 'class': 'icon icon-exclamacionmoradainversa' } },
