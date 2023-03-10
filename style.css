@@ -800,7 +800,8 @@ body.is_app .daidemo-navbar.ocultar {
     vertical-align: middle
 }
 
-#actividad .content img.player,#actividad .player.video,#help-panel-content .player,#remote-alert-modal-rich .player {
+#actividad .content img.player,#actividad .player.video,
+#help-panel-content .player,#remote-alert-modal-rich .player {
     height: 35px!important;
     width: 35px;
     display: inline-block;
@@ -3266,7 +3267,7 @@ hr {
     width: 26px;
     height: 24px;
     margin-right: 5px;
-    margin-top: -7px
+    margin-top: -3px;
 }
 
 .item-container .icon-pillole_fonetica:before {
@@ -3278,9 +3279,17 @@ hr {
 
 .item-container .icon-lupa:before {
     background-image: url(images/icono_lupa_dai.png);
-    width: 23px;
+    width: 25px;
     height: 23px;
     margin-right: 10px
+}
+
+.item-container .icon-audio:before {
+    background-image: url(images/icono_audio_dai.png);
+    width: 28px;
+    height: 28px;
+    margin-right: 5px;
+    margin-top: -7px
 }
 
 .item-container .icon-materials:before {
