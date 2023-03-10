@@ -885,13 +885,26 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 .bck-title-3 {
-    font-size: 25px;
-    border-bottom: none;
-    margin-top: 0;
-    margin-bottom: 25px
+    color: inherit;
+    background-color: #a9d5c5;
+    height: 64px;
+    border-radius: 15px;
+    width: 70%
 }
 
-.bck-title-3,.bck-title-4 {
+.bck-title-3:before {
+    content: "";
+    background-image: url(images/icono_caja_compito_colletivo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 62px;
+    margin-top: -30px;
+    position: absolute;
+    left: 10px
+}
+
+
+.bck-title-4 {
     color: #e7304a;
     font-weight: 700
 }
