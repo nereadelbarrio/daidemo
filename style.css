@@ -434,20 +434,20 @@ button.btn.btn-primary.disabled {
 }
 
 #indice .unit-content .material .item .imagen.musica:after {
-    background-image: url(images/icono_audio_materialapoyo_daidemo.png);
+    background-image: url(images/icono_audio_materialapoyo_dai.png);
     background-color: #000;
     border-radius: 50%
 }
 
 #indice .unit-content .material .item .imagen.video:after {
-    background-image: url(images/icono_video_materialapoyo_daidemo.png);
+    background-image: url(images/icono_video_materialapoyo_dai.png);
     background-color: #000;
     border-radius: 50%
 }
 
 #indice .unit-content .material .item .imagen.archivo:after,
 #indice .unit-content .material .item .imagen.pdf:after {
-    background-image: url(images/icono_archivo_materialapoyo_daidemo.png);
+    background-image: url(images/icono_archivo_materialapoyo_dai.png);
     background-color: #000;
     border-radius: 50%
 }
