@@ -1328,30 +1328,41 @@ hr {
     width: inherit
 }
 
-#actividad .content .cke_contents .bck-ol-4,#actividad .content .texto_curso .bck-ol-4,#actividad .content .workspace ul li .bck-ol-4 {
+#actividad .content .cke_contents .bck-ol-4,
+#actividad .content .texto_curso .bck-ol-4,
+#actividad .content .workspace ul li .bck-ol-4 {
     list-style-type: none;
     counter-reset: bck-li-counter;
-    padding-left: 42px
+    padding-left: 44px
 }
 
-#actividad .content .cke_contents .bck-ol-4 li,#actividad .content .texto_curso .bck-ol-4 li,#actividad .content .workspace ul li .bck-ol-4 li,#actividad .popover-content .bck-ol-4 li {
+#actividad .content .cke_contents .bck-ol-4 li,
+#actividad .content .texto_curso .bck-ol-4 li,
+#actividad .content .workspace ul li .bck-ol-4 li,
+#actividad .popover-content .bck-ol-4 li {
     counter-increment: bck-li-counter;
-    padding-left: 3px;
+    padding-left: 0;
+    position: relative;
     z-index: 0;
-    font-size: 2.2rem
+    font-weight: 700;
 }
 
-#actividad .content .cke_contents .bck-ol-4 li:before,#actividad .content .texto_curso ol.bck-ol-4 li:before,#actividad .content .workspace ul li ol.bck-ol-4 li:before,#actividad .popover-content ol.bck-ol-4 li:before {
-    content: counter(bck-li-counter,lower-alpha) ".";
-    position: absolute;
-    color: #000;
-    font-size: 2.2rem;
-    font-weight: 700;
-    text-align: right;
-    left: -20px;
-    font-family: inherit;
-    margin: 0 0 0 -1px;
-    width: inherit
+#actividad .content .cke_contents .bck-ol-4 li:before,
+#actividad .content .texto_curso .bck-ol-4 li:before,
+#actividad .content .workspace ul li .bck-ol-4 li:before,
+#actividad .popover-content .bck-ol-4 li:before {
+        margin-left: -13px;
+        content: counter(bck-li-counter) ".";
+        font-family: 'Inter Tight';
+        font-weight: 500;
+        position: absolute;
+        text-align: right;
+        color: #333;
+        font-size: 18px;
+        width: 31px;
+        margin-top: 0;
+        left: -23px;
+        top: 0;
 }
 
 #actividad .content .cke_contents .bck-ol-5,#actividad .content .texto_curso .bck-ol-5,#actividad .content .workspace ul li .bck-ol-5 {
