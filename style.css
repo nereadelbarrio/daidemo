@@ -569,13 +569,15 @@ body {
     text-decoration: none
 }
 
-#indice .units ul li.active:not(.disabled),#indice .units ul li:focus:not(.disabled),#list-units .unittag_azul_daidemo.active:not(.disabled),#list-units .unittag_azul_daidemo:hover,#list-units .unittag_marron_daidemo.active:not(.disabled),#list-units .unittag_marron_daidemo:hover,#list-units .unittag_morado_daidemo.active:not(.disabled),#list-units .unittag_morado_daidemo:hover,#list-units .unittag_naranja_daidemo.active:not(.disabled),#list-units .unittag_naranja_daidemo:hover,#list-units .unittag_oliva_daidemo.active:not(.disabled),#list-units .unittag_oliva_daidemo:hover,#list-units .unittag_rojo_daidemo.active:not(.disabled),#list-units .unittag_rojo_daidemo:hover,#list-units .unittag_rosa_daidemo.active:not(.disabled),#list-units .unittag_rosa_daidemo:hover,#list-units .unittag_verde_daidemo2.active:not(.disabled),#list-units .unittag_verde_daidemo:hover,#list-units .unittag_violeta_daidemo.active:not(.disabled),#list-units .unittag_violeta_daidemo:hover,body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
+#indice .units ul li.active:not(.disabled),
+#indice .units ul li:focus:not(.disabled),
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
     background-color: #000!important
 }
 
 #book-index #indice .units ul li {
     opacity: 1;
-    background-color: #757575;
+    background-color: #E2EED6;
     margin-bottom: 2px
 }
 
