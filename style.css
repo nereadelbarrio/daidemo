@@ -2320,24 +2320,24 @@ hr {
 .bck-box.bck-box-10>.bck-content {
     padding: 1px;
     background: #fff;
-    border: 3px solid #cdcdcb;
+    border: 2px solid #AFAFAF;
     border-top: 0;
     border-radius: 0 0 15px 15px;
 }
 
 .bck-box.bck-box-10>.bck-title {
-    border: 0;
     color: #fff;
-    border-radius: 0;
     content: " ";
     background-repeat: no-repeat;
     position: relative;
-    background: url(images/icono_caja_web.png);
+    background: url(images/icono_caja_web2.png);
     padding: 0 0 6px;
     background-size: cover;
     top: 2px;
     left: 0;
     width: 100%;
+    border: 2px solid #AFAFAF;
+    border-radius: 10px 10px 0 0;
 }
 
 .bck-box.bck-box-10>.bck-title p {
