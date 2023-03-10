@@ -4315,12 +4315,12 @@ table td.bck-td-11 {
 
 
 /*activityTAGS*/
-/*.activitytag_approfondiamo_dai*/
+/*activitytag_approfondiamo_dai*/
 .activitytag_approfondiamo_dai #actividad .content .header .title h3 {
     background: #99BC37;
 }
 
-/*.activitytag_grammatica_dai*/
+/*activitytag_grammatica_dai*/
 .activitytag_grammatica_dai #actividad .content .header .title h3 {
     background: #FCE274;
 }
@@ -4353,6 +4353,7 @@ table td.bck-td-11 {
     border: 4px solid #FEEEB2;
 }
 
+/**/
 
 #iframe_div.scorm {
     top: 0!important;
