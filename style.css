@@ -886,10 +886,14 @@ body.is_app .daidemo-navbar.ocultar {
 
 .bck-title-3 {
     color: inherit;
-    background-color: #a9d5c5;
+    background-color: #99BC37;
+    left: 117px;
     height: 64px;
-    border-radius: 15px;
-    width: 70%
+    border-radius: 15px 0 0 15px;
+    width: 100%;
+    position: relative;
+    font-size: 20px;
+    padding: 15px 0 0 33px;
 }
 
 .bck-title-3:before {
@@ -898,9 +902,9 @@ body.is_app .daidemo-navbar.ocultar {
     background-size: contain;
     background-repeat: no-repeat;
     padding: 62px;
-    margin-top: -30px;
+    margin-top: -40px;
     position: absolute;
-    left: 10px
+    left: -120px;
 }
 
 
@@ -2373,7 +2377,7 @@ hr {
 
 .bck-box.bck-box-11>.bck-title {
     border: 0;
-    color: #9BCB20;
+    color: #000;
     font-weight: 800;
     text-align: center;
 }
