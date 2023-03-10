@@ -2347,29 +2347,22 @@ hr {
 }
 
 .bck-box.bck-box-11 {
-    border: 1px solid #f49400;
-    border-radius: 15px;
-    background: #fff;
-    padding: 0
+    background: #E2EED6;
+    border: 0;
+    border-radius: 0 0 30px 30px;
+    color: #333;
+    padding: 15px 20px;
 }
 
 .bck-box.bck-box-11>.bck-content {
-    padding: 25px;
-    font-weight: 500
+    padding: 0 15px;
 }
 
 .bck-box.bck-box-11>.bck-title {
-    background: #f49400;
-    width: fit-content;
-    font-weight: 500;
-    text-align: left;
-    color: #fff;
-    padding: 16px 20px 2px;
     border: 0;
-    border-radius: 10px 0 0 0;
-    font-size: 26px;
-    margin-top: -1px;
-    margin-left: -1px
+    color: #9BCB20;
+    font-weight: 800;
+    text-align: center;
 }
 
 .bck-box.bck-box-11>.bck-title p {
@@ -4447,6 +4440,17 @@ table td.bck-td-11 {
 }
 
 .activitytag_cultura_dai #actividad .content .header .title {
+    min-height: 0;
+    background: #9EBAC2;
+    padding: 0;
+}
+
+/*activitytag_compiti_dai*/
+.activitytag_compiti_dai #actividad .content .header .title h3 {
+    background: #9EBAC2;
+}
+
+.activitytag_compiti_dai #actividad .content .header .title {
     min-height: 0;
     background: #9EBAC2;
     padding: 0;
