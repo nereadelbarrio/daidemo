@@ -4420,11 +4420,23 @@ table td.bck-td-11 {
 /*activitytag_video_dai*/
 .activitytag_video_dai #actividad .content .header .title h3 {
     background: #303C50;
+    color: #fff;
 }
 
 .activitytag_video_dai #actividad .content .header .title {
     min-height: 0;
     background: #303C50;
+    padding: 0;
+}
+
+/*activitytag_cultura_dai*/
+.activitytag_cultura_dai #actividad .content .header .title h3 {
+    background: #9EBAC2;
+}
+
+.activitytag_cultura_dai #actividad .content .header .title {
+    min-height: 0;
+    background: #9EBAC2;
     padding: 0;
 }
 
