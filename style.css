@@ -1803,58 +1803,78 @@ hr {
     margin-left: -2px;
 }
 
-#actividad .content .cke_contents .bck-ul-5,#actividad .content .texto_curso .bck-ul-5,#actividad .content .workspace ul li .bck-ul-5 {
-    list-style-type: none;
-    margin-bottom: 0
+#actividad .content .cke_contents .bck-ul-5,
+#actividad .content .texto_curso .bck-ul-5,
+#actividad .content .workspace ul li .bck-ul-5 {
+    list-style-type: none
 }
 
-#actividad .content .cke_contents .bck-ul-5 li,#actividad .content .texto_curso .bck-ul-5 li,#actividad .content .workspace ul li .bck-ul-5 li,#actividad .popover-content .bck-ul-5 li {
+#actividad .content .cke_contents .bck-ul-5 li,
+#actividad .content .texto_curso .bck-ul-5 li,
+#actividad .content .workspace ul li .bck-ul-5 li,
+#actividad .popover-content .bck-ul-5 li {
     padding-left: 35px;
     position: relative;
     list-style: none;
     margin-bottom: 10px;
-    margin-left: 2px;
-    font-size: 22px
+    margin-left: 8px;
+    color: #0056A4;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
 }
 
-#actividad .content .cke_contents .bck-ul-5 li:before,#actividad .content .texto_curso ul.bck-ul-5 li:before,#actividad .content .workspace ul li ul.bck-ul-5 li:before,#actividad .popover-content ul.bck-ul-5 li:before {
+#actividad .content .cke_contents .bck-ul-5 li:before,
+#actividad .content .texto_curso ul.bck-ul-5 li:before,
+#actividad .content .workspace ul li ul.bck-ul-5 li:before,
+#actividad .popover-content ul.bck-ul-5 li:before {
     content: "";
     height: 6px;
     width: 6px;
-    background-color: #333;
-    color: #333;
+    background-color: transparent;
+    color: #0056A4;
     border-radius: 50%;
     position: absolute;
-    margin-top: .45em;
-    margin-left: 6px
+    margin-top: 11px;
+    margin-left: -2px;
+    border: 1px solid #0056A4;
 }
 
-#actividad .content .cke_contents .bck-ul-6,#actividad .content .texto_curso .bck-ul-6,#actividad .content .workspace ul li .bck-ul-6 {
-    list-style-type: none;
-    margin-bottom: 0
+#actividad .content .cke_contents .bck-ul-6,
+#actividad .content .texto_curso .bck-ul-6,
+#actividad .content .workspace ul li .bck-ul-6 {
+    list-style-type: none
 }
 
-#actividad .content .cke_contents .bck-ul-6 li,#actividad .content .texto_curso .bck-ul-6 li,#actividad .content .workspace ul li .bck-ul-6 li,#actividad .popover-content .bck-ul-6 li {
-    padding-left: 40px;
+#actividad .content .cke_contents .bck-ul-6 li,
+#actividad .content .texto_curso .bck-ul-6 li,
+#actividad .content .workspace ul li .bck-ul-6 li,
+#actividad .popover-content .bck-ul-6 li {
+    padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 0;
-    font-size: 22px;
-    line-height: 27px!important
+    margin-bottom: 10px;
+    margin-left: 8px;
+    color: #0056A4;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
 }
 
-#actividad .content .cke_contents .bck-ul-6 li:before,#actividad .content .texto_curso ul.bck-ul-6 li:before,#actividad .content .workspace ul li ul.bck-ul-6 li:before,#actividad .popover-content ul.bck-ul-6 li:before {
+#actividad .content .cke_contents .bck-ul-6 li:before,
+#actividad .content .texto_curso ul.bck-ul-6 li:before,
+#actividad .content .workspace ul li ul.bck-ul-6 li:before,
+#actividad .popover-content ul.bck-ul-6 li:before {
     content: "";
     height: 6px;
     width: 6px;
-    background-color: #333;
-    color: #333;
+    background-color: #0056A4;
+    color: #0056A4;
     border-radius: 50%;
     position: absolute;
-    margin-top: 7px;
-    margin-left: 6px;
-    border: 1px solid #333
+    margin-top: 12px;
+    margin-left: -2px
 }
+
+----
 
 #actividad .content .cke_contents .bck-ul-7,
 #actividad .content .texto_curso .bck-ul-7,
