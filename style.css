@@ -1265,6 +1265,38 @@ hr {
     width: inherit
 }
 
+#actividad .content .cke_contents .bck-ol-3,
+#actividad .content .texto_curso .bck-ol-3,
+#actividad .content .workspace ul li .bck-ol-3 {
+    list-style-type: none;
+    counter-reset: bck-li-counter;
+    padding-left: 38px;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li,
+#actividad .content .texto_curso .bck-ol-3 li,
+#actividad .content .workspace ul li .bck-ol-3 li,
+#actividad .popover-content .bck-ol-3 li {
+    padding-left: 3px;
+    font-size: 18px;
+}
+
+#actividad .content .cke_contents .bck-ol-3 li:before,
+#actividad .content .texto_curso ol.bck-ol-3 li:before,
+#actividad .content .workspace ul li ol.bck-ol-3 li:before,
+#actividad .popover-content ol.bck-ol-3 li:before {
+    content: counter(bck-li-counter,upper-alpha) ".";
+    position: absolute;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    left: -20px;
+    font-family: inherit;
+    margin: 0 0 0 -3px;
+    width: inherit
+}
+
 #actividad .content .cke_contents .bck-ol-4,#actividad .content .texto_curso .bck-ol-4,#actividad .content .workspace ul li .bck-ol-4 {
     list-style-type: none;
     counter-reset: bck-li-counter;
