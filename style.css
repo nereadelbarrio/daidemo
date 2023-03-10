@@ -2311,32 +2311,33 @@ hr {
 }
 
 .bck-box.bck-box-10 {
-    border: 1px solid #f49400;
-    border-radius: 0 15px 15px 15px;
-    background: #faf9f5;
-    padding: 0;
-    -webkit-box-shadow: #bababa 2px 0 5px 2px;
-    -moz-box-shadow: #bababa 2px 0 5px 2px;
-    box-shadow: 2px 0 5px 2px #bababa
+    background: transparent;
+    border: none;
+    text-align: left;
+    border-radius: 0;
 }
 
 .bck-box.bck-box-10>.bck-content {
-    padding: 25px;
-    background: transparent
+    padding: 1px;
+    background: #fff;
+    border: 3px solid #cdcdcb;
+    border-top: 0;
+    border-radius: 0 0 15px 15px;
 }
 
 .bck-box.bck-box-10>.bck-title {
-    background: #f49400;
-    width: fit-content;
-    font-weight: 500;
-    text-align: left;
-    color: #fff;
-    padding: 16px 20px 2px;
     border: 0;
-    border-radius: 0 0 0 0;
-    font-size: 26px;
-    margin-top: -1px;
-    margin-left: -1px
+    color: #fff;
+    border-radius: 0;
+    content: " ";
+    background-repeat: no-repeat;
+    position: relative;
+    background: url(images/icono_caja_web.png);
+    padding: 0 0 6px;
+    background-size: cover;
+    top: 2px;
+    left: 0;
+    width: 100%;
 }
 
 .bck-box.bck-box-10>.bck-title p {
@@ -3286,8 +3287,8 @@ hr {
 
 .item-container .icon-audio:before {
     background-image: url(images/icono_audio_dai.png);
-    width: 28px;
-    height: 25px;
+    width: 26px;
+    height: 23px;
     margin-right: 5px;
     margin-top: -2px;
 }
