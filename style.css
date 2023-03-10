@@ -2318,7 +2318,7 @@ hr {
 }
 
 .bck-box.bck-box-10>.bck-content {
-    padding: 1px;
+    padding: 6px;
     background: #fff;
     border: 2px solid #AFAFAF;
     border-top: 0;
@@ -2330,10 +2330,12 @@ hr {
     content: " ";
     background-repeat: no-repeat;
     position: relative;
-    background: url(images/icono_caja_web2.png);
-    padding: 0 0 6px;
-    background-size: cover;
-    top: 2px;
+    background: url(images/icono_caja_web.png);
+    padding: 0 0 0px;
+    background-size: contain;
+    background-position-x: -4px;
+    background-position-y: 4px;
+    top: 0px;
     left: 0;
     width: 100%;
     border: 2px solid #AFAFAF;
