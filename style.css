@@ -3264,8 +3264,8 @@ hr {
 
 .item-container .icon-video:before {
     background-image: url(images/icono_video_dai.png);
-    width: 26px;
-    height: 24px;
+    width: 31px;
+    height: 26px;
     margin-right: 5px;
     margin-top: -3px;
 }
@@ -3287,9 +3287,9 @@ hr {
 .item-container .icon-audio:before {
     background-image: url(images/icono_audio_dai.png);
     width: 28px;
-    height: 28px;
+    height: 25px;
     margin-right: 5px;
-    margin-top: -7px
+    margin-top: -2px;
 }
 
 .item-container .icon-materials:before {
