@@ -885,12 +885,13 @@ body.is_app .daidemo-navbar.ocultar {
 }
 
 .bck-title-3 {
-    color: inherit;
+    color: #000;
     background-color: #99BC37;
-    left: 117px;
+    left: 83px;
     height: 64px;
     border-radius: 15px 0 0 15px;
-    width: 100%;
+    /* width: auto; */
+    max-width: 94.8%;
     position: relative;
     font-size: 20px;
     padding: 15px 0 0 33px;
@@ -902,23 +903,35 @@ body.is_app .daidemo-navbar.ocultar {
     background-size: contain;
     background-repeat: no-repeat;
     padding: 62px;
-    margin-top: -40px;
+    top: -33px;
     position: absolute;
-    left: -120px;
+    left: -96px;
 }
 
 
 .bck-title-4 {
-    color: #e7304a;
-    font-weight: 700
+    color: #000;
+    background-color: #99BC37;
+    left: 83px;
+    height: 64px;
+    border-radius: 15px 0 0 15px;
+    /* width: auto; */
+    max-width: 94.8%;
+    position: relative;
+    font-size: 20px;
+    padding: 15px 0 0 33px;
 }
 
-.bck-title-4 {
-    font-size: 4.3rem;
-    border-bottom: 4px solid #e7304a;
-    margin-bottom: 40px
+.bck-title-4:before {
+    content: "";
+    background-image: url(images/icono_caja_compito_individuales.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 62px;
+    top: -33px;
+    position: absolute;
+    left: -96px;
 }
-
 .bck-title-5 {
     font-size: 3.7rem;
     border-bottom: none;
@@ -2367,8 +2380,8 @@ hr {
     background: #E2EED6;
     border: 0;
     border-radius: 0 0 30px 30px;
-    color: #333;
-    padding: 15px 20px;
+    color: #000;
+    padding: 15px 20px 30px 10px;
 }
 
 .bck-box.bck-box-11>.bck-content {
