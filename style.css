@@ -740,7 +740,7 @@ body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title,body:not
 }
 
 .slide_main input {
-    font-size: 2.2rem;
+    font-size: 18px;
     padding: 0 6px 0 13px
 }
 
