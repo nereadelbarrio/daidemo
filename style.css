@@ -3721,6 +3721,14 @@ table td.bck-td-3 {
     padding: 0;
 }
 
+.activitytag_approfondiamo_dai .bck-box.bck-box-1:after,.bck-box.bck-box-1:before {
+    display: none
+}
+
+.bck-box.bck-box.bck-box-1 {
+    background: #C6D68D;
+}
+
 /*activitytag_grammatica_dai*/
 .activitytag_grammatica_dai #actividad .content .header .title h3 {
     background: #FCE274;
