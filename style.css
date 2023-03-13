@@ -4189,57 +4189,41 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-    .bck-box.bck-box-16 {
-        width:calc(100% + 40px);
-        left: -20px;
-        max-width: calc(100% + 40px)
-    }
+.bck-title-3 {
+    max-width: 92.8%;
+}
 
-    .bck-enfasis-4 {
-        left: 0
-    }
+.bck-title-4 {
+    max-width: 92.8%;
+}
 }
 
 @media only screen and (max-width: 1024px) and (min-width:868px) {
-    .bck-title-12 {
-        position:relative;
-        left: inherit;
-        margin-top: 10px
-    }
+.bck-title-3 {
+    max-width: 92%;
+}
+
+.bck-title-4 {
+    max-width: 92%;
+}
 }
 
 @media only screen and (max-width: 867px) and (min-width:375px) {
-    .bck-title-12 {
-        position:relative;
-        left: inherit;
-        margin-top: 10px
-    }
+.bck-title-3 {
+    max-width: 83%;
+}
+
+.bck-title-4 {
+    max-width: 83%;
+}
 }
 
 @media screen and (max-width: 375px) {
-    .bck-title-1 {
-        font-size:60px
-    }
+   .bck-title-3 {
+    max-width: 83%;
+}
 
-    .bck-box .bck-title-2,.bck-title-2 {
-        font-size: 4rem
-    }
-
-    .bck-title-6 {
-        font-size: 3.6rem
-    }
-
-    .bck-title-12 {
-        position: relative;
-        left: inherit;
-        margin-top: 10px
-    }
-
-    #actividad .content .cke_contents .bck-ul-6 li,#actividad .content .texto_curso .bck-ul-6 li,#actividad .content .workspace ul li .bck-ul-6 li,#actividad .popover-content .bck-ul-6 li {
-        margin-left: 2px
-    }
-
-    .bck-box.bck-box-22 {
-        width: 85%
-    }
+.bck-title-4 {
+    max-width: 83%;
+}
 }
