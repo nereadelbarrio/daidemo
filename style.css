@@ -2971,6 +2971,7 @@ table.bck-table-1 td.bck-td-1 {
 table td.bck-td-2 {
     background-color: #FEEEB2;
     color: #000;
+    border: 4px solid #FFF9EA;
 }
 
 table.bck-table-2 td.bck-td-2 {
