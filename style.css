@@ -989,6 +989,7 @@ body.is_app .daidemo-navbar.ocultar {
     border-radius: 5px;
     font-weight: 500;
     position: relative;
+    z-index: 1000;
 }
 
 .bck-enfasis-3:before {
@@ -1012,6 +1013,7 @@ body.is_app .daidemo-navbar.ocultar {
     border-radius: 5px;
     font-weight: 500;
     position: relative;
+    z-index: 1000;
 }
 
 .bck-enfasis-4:after {
