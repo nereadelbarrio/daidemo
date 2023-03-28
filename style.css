@@ -491,7 +491,7 @@ button.btn.btn-primary.disabled {
     content: "";
     background-size: contain;
     top: 10px;
-    background-image: url(images/logofrenchhub_daidemo.png)!important;
+    background-image: url(images/logo_myitalianhub_dai.png)!important;
     position: fixed;
     width: 80px;
     height: 40px;
@@ -514,7 +514,7 @@ button.btn.btn-primary.disabled {
     left: 10px;
     width: 100px;
     height: 44px;
-    background: url(images/logofrenchhub_daidemo.png) 0 0 no-repeat;
+    background: url(images/logo_myitalianhub_dai.png) 0 0 no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -3023,6 +3023,29 @@ table td.bck-td-3 {
 
 
 /*TAGS*/
+/*coursetag logo*/
+/*logo*/
+
+.content_type_curso_daidemo.coursetag_nologo_dai .libro-left ul li .title:before {
+    display: none;
+    content: "";
+    background-size: contain;
+    top: 12px;
+    background-image: url(images/logo_myitalianhub_dai.png)!important;
+    position: fixed;
+    width: 100px;
+    height: 23px;
+    background-repeat: no-repeat;
+    left: 50%;
+    margin-left: -40px;
+    opacity: 1;
+}
+
+.coursetag_nologo_dai .navbar-content .logo-publisher {
+    display: none;
+}
+
+
 /*UNITTAGS*/
 
 #list-units .unittag_azul_daidemo.active:not(.disabled),#list-units .unittag_azul_daidemo:hover,#list-units .unittag_marron_daidemo.active:not(.disabled),#list-units .unittag_marron_daidemo:hover,#list-units .unittag_morado_daidemo.active:not(.disabled),#list-units .unittag_morado_daidemo:hover,#list-units .unittag_naranja_daidemo.active:not(.disabled),#list-units .unittag_naranja_daidemo:hover,#list-units .unittag_oliva_daidemo.active:not(.disabled),#list-units .unittag_oliva_daidemo:hover,#list-units .unittag_rojo_daidemo.active:not(.disabled),#list-units .unittag_rojo_daidemo:hover,#list-units .unittag_rosa_daidemo.active:not(.disabled),#list-units .unittag_rosa_daidemo:hover,#list-units .unittag_verde_daidemo.active:not(.disabled),#list-units .unittag_verde_daidemo:hover,#list-units .unittag_violeta_daidemo.active:not(.disabled),#list-units .unittag_violeta_daidemo:hover {
