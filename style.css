@@ -220,6 +220,44 @@
 }
 
 @font-face {
+    font-family: 'Noto Sans';
+    src: url('fonts/NotoSans-BoldItalic.eot');
+    src: url('fonts/NotoSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NotoSans-BoldItalic.woff2') format('woff2'),
+        url('fonts/NotoSans-BoldItalic.woff') format('woff'),
+        url('fonts/NotoSans-BoldItalic.ttf') format('truetype'),
+        url('fonts/NotoSans-BoldItalic.svg#NotoSans-BoldItalic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('fonts/NotoSans-Regular.eot');
+    src: url('fonts/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NotoSans-Regular.woff2') format('woff2'),
+        url('fonts/NotoSans-Regular.woff') format('woff'),
+        url('fonts/NotoSans-Regular.ttf') format('truetype'),
+        url('fonts/NotoSans-Regular.svg#NotoSans-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('fonts/NotoSans-ExtraBold.eot');
+    src: url('fonts/NotoSans-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/NotoSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/NotoSans-ExtraBold.woff') format('woff'),
+        url('fonts/NotoSans-ExtraBold.ttf') format('truetype'),
+        url('fonts/NotoSans-ExtraBold.svg#NotoSans-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+@font-face {
     font-family: 'Lato';
     src: url('fonts/Lato-Black.eot');
     src: url('fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
@@ -240,18 +278,6 @@
         url('fonts/InterTight-SemiBold.ttf') format('truetype'),
         url('fonts/InterTight-SemiBold.svg#InterTight-SemiBold') format('svg');
     font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Noto Sans';
-    src: url('fonts/NotoSans-Regular.eot');
-    src: url('fonts/NotoSans-Regular.eot?#iefix') format('embedded-opentype'),
-        url('fonts/NotoSans-Regular.woff2') format('woff2'),
-        url('fonts/NotoSans-Regular.woff') format('woff'),
-        url('fonts/NotoSans-Regular.ttf') format('truetype'),
-        url('fonts/NotoSans-Regular.svg#NotoSans-Regular') format('svg');
-    font-weight: 500;
     font-style: normal;
 }
 
@@ -529,7 +555,7 @@ button.btn.btn-primary.disabled {
 body {
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Inter Tight';
+    font-family: 'Noto Sans';
     color: #000;
     background-color: #fff;
 }
@@ -1167,7 +1193,7 @@ hr {
 #actividad .popover-content .bck-ol-1 li:before {
         margin-left: -13px;
         content: counter(bck-li-counter) ".";
-        font-family: 'Inter Tight';
+        font-family: 'Noto Sans';
         font-weight: 700;
         position: absolute;
         text-align: right;
@@ -1269,7 +1295,7 @@ hr {
 #actividad .popover-content .bck-ol-4 li:before {
         margin-left: -13px;
         content: counter(bck-li-counter) ".";
-        font-family: 'Inter Tight';
+        font-family: 'Noto Sans';
         font-weight: 500;
         position: absolute;
         text-align: right;
