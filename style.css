@@ -2687,6 +2687,37 @@ padding-left: 35px;
 }
 
 
+.item-container .icon-schede:before {
+    background-image: url(images/icono_schede_dai.png);
+    width: 26px;
+    height: 23px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.item-container .icon-testo:before {
+    background-image: url(images/icono_testo_mappato_dai.png);
+    width: 26px;
+    height: 23px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.item-container .icon-trascripzione:before {
+    background-image: url(images/icono_trascripzione_dai.png);
+    width: 26px;
+    height: 23px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+.item-container .icon-audiolettura:before {
+    background-image: url(images/icono_audiolettura_dai.png);
+    width: 26px;
+    height: 23px;
+    margin-right: 5px;
+    margin-top: -2px;
+}
 .bck-table,table {
     border: 1px solid hsla(0,0%,100%,.14901960784313725)
 }
