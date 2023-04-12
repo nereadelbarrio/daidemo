@@ -79,7 +79,11 @@
 				{ name: 'Icono Pillole di Fonetica', element: 'span', attributes: { 'class': 'icon icon-pillole_fonetica' } },
 				{ name: 'Icono Lupa', element: 'span', attributes: { 'class': 'icon icon-lupa' } },
 				{ name: 'Icono Video', element: 'span', attributes: { 'class': 'icon icon-video' } },
-				{ name: 'Icono Audio', element: 'span', attributes: { 'class': 'icon icon-audio' } },				
+				{ name: 'Icono Audio', element: 'span', attributes: { 'class': 'icon icon-audio' } },
+				{ name: 'Icono Audio Lettura', element: 'span', attributes: { 'class': 'icon icon-audiolettura' } },
+				{ name: 'Icono Testo Mappato', element: 'span', attributes: { 'class': 'icon icon-testo' } },
+				{ name: 'Icono Schede', element: 'span', attributes: { 'class': 'icon icon-schede' } },
+				{ name: 'Icono Trascrizioni', element: 'span', attributes: { 'class': 'icon icon-trascripzione' } },				
 				
 				{ name: 'Tabla 01', element: 'table', attributes: { 'class': 'bck-table-1' } },
 				{ name: 'Tabla 02', element: 'table', attributes: { 'class': 'bck-table-2' } },
