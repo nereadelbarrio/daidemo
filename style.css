@@ -1166,8 +1166,15 @@ hr {
     padding-top: 8px
 }
 
-.cke_contents ol,.cke_contents ul,.popover-content ol,.popover-content ul,.texto_curso ol,.texto_curso ul,.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol,.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul {
-    margin-bottom: 20px;
+.cke_contents ol,
+.cke_contents ul,
+.popover-content ol,
+.popover-content ul,
+.texto_curso ol,
+.texto_curso ul,
+.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ol,
+.workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul {
+    /*margin-bottom: 20px;*/
     margin-left: -21px
 }
 
@@ -1328,7 +1335,12 @@ hr {
     padding-left: 40px
 }
 
-#actividad .workspace.matching .box ul li:before,#actividad .workspace.multiple-choice .js-item ul li:before,#actividad .workspace.ordenar .js-rank-item ul li:before,.cke_contents ul li:before,.classify-item ul li:before,.preview ul li:before,.texto_curso ul li:before,.workspace ul li ul li:before {
+#actividad .workspace.matching .box ul li:before,
+#actividad .workspace.multiple-choice .js-item ul li:before,
+#actividad .workspace.ordenar .js-rank-item ul li:before,
+.cke_contents ul li:before,.classify-item ul li:before,
+.preview ul li:before,.texto_curso ul li:before,
+.workspace ul li ul li:before {
     content: "";
     height: 6px;
     width: 6px;
@@ -1337,7 +1349,8 @@ hr {
     border-radius: 50%
 }
 
-#actividad .content .texto_curso ul li:before,#actividad .content .workspace ul li ul li:before {
+#actividad .content .texto_curso ul li:before,
+#actividad .content .workspace ul li ul li:before {
     content: "";
     height: 9px;
     width: 9px;
@@ -1348,7 +1361,11 @@ hr {
     border-radius: 50%
 }
 
-#actividad .content .texto_curso .bck-ul li:before,#actividad .content .texto_curso ul li:before,#actividad .content .workspace ul li .bck-ul li:before,#actividad .content .workspace ul li ul li:before,#actividad .popover-background.shown .popover-content>ul>li:before {
+#actividad .content .texto_curso .bck-ul li:before,
+#actividad .content .texto_curso ul li:before,
+#actividad .content .workspace ul li .bck-ul li:before,
+#actividad .content .workspace ul li ul li:before,
+#actividad .popover-background.shown .popover-content>ul>li:before {
     content: "";
     height: 6px;
     width: 6px;
