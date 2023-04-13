@@ -1511,7 +1511,8 @@ hr {
 #actividad .content .cke_contents .bck-ul-5,
 #actividad .content .texto_curso .bck-ul-5,
 #actividad .content .workspace ul li .bck-ul-5 {
-    list-style-type: none
+    list-style-type: none;
+    margin-bottom: 0;
 }
 
 #actividad .content .cke_contents .bck-ul-5 li,
@@ -1521,7 +1522,7 @@ hr {
     padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 8px;
     color: #0056A4;
     font-family: 'Trebuchet MS';
@@ -1547,7 +1548,8 @@ hr {
 #actividad .content .cke_contents .bck-ul-6,
 #actividad .content .texto_curso .bck-ul-6,
 #actividad .content .workspace ul li .bck-ul-6 {
-    list-style-type: none
+    list-style-type: none;
+    margin-bottom: 0;
 }
 
 #actividad .content .cke_contents .bck-ul-6 li,
@@ -1557,7 +1559,7 @@ hr {
     padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 8px;
     color: #0056A4;
     font-family: 'Trebuchet MS';
@@ -1583,7 +1585,8 @@ hr {
 #actividad .content .cke_contents .bck-ul-7,
 #actividad .content .texto_curso .bck-ul-7,
 #actividad .content .workspace ul li .bck-ul-7 {
-    list-style-type: none
+    list-style-type: none;
+    margin-bottom: 0;
 }
 
 #actividad .content .cke_contents .bck-ul-7 li,
@@ -1593,7 +1596,7 @@ hr {
 padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 8px;
     color: #0056A4;
     font-family: 'Trebuchet MS';
@@ -1619,7 +1622,8 @@ padding-left: 35px;
 #actividad .content .cke_contents .bck-ul-8,
 #actividad .content .texto_curso .bck-ul-8,
 #actividad .content .workspace ul li .bck-ul-8 {
-    list-style-type: none
+    list-style-type: none;
+    margin-bottom: 0;
 }
 
 #actividad .content .cke_contents .bck-ul-8 li,
@@ -1629,7 +1633,7 @@ padding-left: 35px;
 padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 8px;
     color: #0056A4;
     font-family: 'Trebuchet MS';
