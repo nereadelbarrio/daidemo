@@ -1522,7 +1522,7 @@ hr {
     padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     margin-left: 8px;
     color: #0056A4;
     font-family: 'Trebuchet MS';
@@ -1559,7 +1559,7 @@ hr {
     padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     margin-left: 8px;
     color: #0056A4;
     font-family: 'Trebuchet MS';
@@ -1596,7 +1596,7 @@ hr {
 padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     margin-left: 8px;
     color: #0056A4;
     font-family: 'Trebuchet MS';
@@ -1633,7 +1633,7 @@ padding-left: 35px;
 padding-left: 35px;
     position: relative;
     list-style: none;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
     margin-left: 8px;
     color: #0056A4;
     font-family: 'Trebuchet MS';
@@ -2739,11 +2739,11 @@ padding-left: 35px;
     margin-top: -2px;
 }
 .bck-table,table {
-    border: 1px solid hsla(0,0%,100%,.14901960784313725)
+    border: 1px solid transparent;
 }
 
 .bck-table td,table td {
-    border-color: #ccc
+    border-color: #000;
 }
 
 td,th {
