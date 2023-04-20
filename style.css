@@ -2803,13 +2803,15 @@ padding-left: 35px;
     margin-right: 5px;
 }
 
-.item-container .icon-audiolettura:before {
-    background-image: url(images/icono_audiolettura_dai.png);
+.item-container .icon-fonetica:before {
+    background-image: url(images/icono_foneticaa_dai.png);
     width: 46px;
     height: 27px;
     margin-right: 5px;
     margin-top: -2px;
 }
+
+
 .bck-table,table {
     border: 1px solid transparent;
 }
