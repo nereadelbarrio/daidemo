@@ -1242,7 +1242,7 @@ hr {
 #actividad .content .workspace ul li .bck-ol-2 {
     list-style-type: none;
     counter-reset: bck-li-counter;
-    padding-left: 46px;
+    padding-left: 44px;
 }
 
 #actividad .content .cke_contents .bck-ol-2 li,
@@ -1264,10 +1264,10 @@ hr {
     font-size: 18px;
     font-weight: 700;
     text-align: right;
-    left: -20px;
+    left: -18px;
     font-family: inherit;
     margin: 0 0 0 -5px;
-    width: inherit
+    width: inherit;
 }
 
 #actividad .content .cke_contents .bck-ol-3,
@@ -1275,7 +1275,7 @@ hr {
 #actividad .content .workspace ul li .bck-ol-3 {
     list-style-type: none;
     counter-reset: bck-li-counter;
-    padding-left: 47px;
+    padding-left: 44px;
 }
 
 #actividad .content .cke_contents .bck-ol-3 li,
@@ -1296,10 +1296,10 @@ hr {
     font-size: 18px;
     font-weight: 500;
     text-align: right;
-    left: -20px;
+    left: -21px;
     font-family: inherit;
     margin: 0 0 0 -3px;
-    width: inherit
+    width: inherit;
 }
 
 #actividad .content .cke_contents .bck-ol-4,
@@ -1334,7 +1334,7 @@ hr {
         font-size: 18px;
         width: 31px;
         margin-top: 0;
-        left: -23px;
+        left: -27px;
         top: 0;
 }
 
@@ -1343,14 +1343,14 @@ hr {
 #actividad .content .workspace ul li .bck-ol-5 {
     list-style-type: none;
     counter-reset: bck-li-counter;
-    padding-left: 38px;
+    padding-left: 44px;
 }
 
 #actividad .content .cke_contents .bck-ol-5 li,
 #actividad .content .texto_curso .bck-ol-5 li,
 #actividad .content .workspace ul li .bck-ol-5 li,
 #actividad .popover-content .bck-ol-5 li {
-    padding-left: 3px;
+    padding-left: 0px;
     font-size: 18px;
 }
 
