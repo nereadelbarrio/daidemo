@@ -75,7 +75,8 @@
 				{ name: 'Icono Audio Lettura', element: 'span', attributes: { 'class': 'icon icon-audiolettura' } },
 				{ name: 'Icono Testo Mappato', element: 'span', attributes: { 'class': 'icon icon-testo' } },
 				{ name: 'Icono Schede', element: 'span', attributes: { 'class': 'icon icon-schede' } },
-				{ name: 'Icono Trascrizioni', element: 'span', attributes: { 'class': 'icon icon-trascripzione' } },				
+				{ name: 'Icono Trascrizioni', element: 'span', attributes: { 'class': 'icon icon-trascripzione' } },
+				{ name: 'Icono Fonetica', element: 'span', attributes: { 'class': 'icon icon-fonetica' } },				
 				
 				{ name: 'Tabla 01', element: 'table', attributes: { 'class': 'bck-table-1' } },
 				{ name: 'Tabla 02', element: 'table', attributes: { 'class': 'bck-table-2' } },
