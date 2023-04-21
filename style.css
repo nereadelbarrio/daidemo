@@ -1719,11 +1719,11 @@ padding-left: 35px;
 #actividad .popover-content ul.bck-ul-9 li:before {
     background: none;
     position: absolute;
-    margin-top: -1px;
+    margin-top: -3px;
     margin-left: -2px;
     content: "\025a1";
     font-family: FontAwesome;
-    font-size: 15px;
+    font-size: 28px;
     font-weight: 400;
 }
 ----
