@@ -839,6 +839,10 @@ body.is_app .daidemo-navbar.ocultar {
         font-size: 1.8rem;
 }
 
+#actividad .workspace {
+    line-height: 1.9em;
+}
+
 .bck-box img {
     max-width: 100%
 }
@@ -1189,6 +1193,10 @@ hr {
 .workspace:not(.multiple-choice,.matching,.ordenar,.clasificar,.test) ul li ul {
     /*margin-bottom: 20px;*/
     margin-left: -21px;
+}
+
+#actividad .content .workspace.test ul li .bck-ul li:before {
+    display: block;
 }
 
 #actividad .workspace.multiple-choice .opcion>ol,#actividad .workspace.multiple-choice .opcion>ul {
@@ -4165,4 +4173,6 @@ a:hover {
     max-width: 83%;
 }
 }
+
+
 
