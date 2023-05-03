@@ -357,7 +357,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a .title:hover {
 }
 
 button.btn.btn-primary.disabled {
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 6px
 }
 
@@ -613,6 +613,22 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled) {
     font-size: 18px;
     font-weight: 400;
     margin-left: 10px
+}
+
+#book-index #indice .unit-content .material .item .imagen:after {
+     -webkit-background-size: 35px 35px;
+    -moz-background-size: 35px 35px;
+    width: 65px;
+    height: 65px;
+    background-size: 33px;
+}
+
+#book-index #indice .unit-content .material .item .imagen.img:after {
+    background-size: 60px;
+}
+
+#book-index #indice .unit-content .material .item .imagen.url:after {
+    background-size: 60px;
 }
 
 #book-index #indice .unit-content .actividades .item.active,#book-index #indice .unit-content .actividades .item.current,body:not(.isTablet) #book-index #indice .unit-content .actividades .item:hover {
@@ -4087,6 +4103,7 @@ body:not(.edit) .back .bck-flipbox-section,body:not(.edit) .back .bck-flipbox-ti
 }
 
 #indice .unit-content .material .item .imagen.archivo:after {
+     background-image: url(images/icono_pdf_toc.png);
     background-color: #000;
     border-radius: 50%;
     background-size: 44px 40px;
@@ -4106,6 +4123,8 @@ body:not(.edit) .back .bck-flipbox-section,body:not(.edit) .back .bck-flipbox-ti
 #indice .unit-content .material .item .imagen.actividad:before {
     background-image: none
 }
+
+
 
 a:hover {
     outline: 0;
@@ -4186,6 +4205,9 @@ a:hover {
     max-width: 83%;
 }
 }
+
+
+
 
 
 
