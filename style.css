@@ -464,15 +464,17 @@ button.btn.btn-primary.disabled {
 }
 
 #indice .unit-content .material .item .imagen.musica:after {
-    background-image: url(images/icono_audio_materialapoyo_dai.png);
+    background-image: url(images/icono_audio_toc.png);
     background-color: #000;
-    border-radius: 50%
+    border-radius: 50%;
+    background-size: 36px 36px;
 }
 
 #indice .unit-content .material .item .imagen.video:after {
-    background-image: url(images/icono_video_materialapoyo_dai.png);
+    background-image: url(images/icono_video_toc.png);
     background-color: #000;
-    border-radius: 50%
+    border-radius: 50%;
+    background-size: 36px 36px;
 }
 
 #indice .unit-content .material .item .imagen.archivo:after,
@@ -4086,7 +4088,8 @@ body:not(.edit) .back .bck-flipbox-section,body:not(.edit) .back .bck-flipbox-ti
 
 #indice .unit-content .material .item .imagen.archivo:after {
     background-color: #000;
-    border-radius: 50%
+    border-radius: 50%;
+    background-size: 44px 40px;
 }
 
 #indice .unit-content .material .item .imagen.archivo:before {
@@ -4095,7 +4098,9 @@ body:not(.edit) .back .bck-flipbox-section,body:not(.edit) .back .bck-flipbox-ti
 
 #indice .unit-content .material .item .imagen.actividad:after {
     background-color: #000;
-    border-radius: 50%
+    border-radius: 50%;
+    background-image: url(images/icono_acti_toc.png);
+    background-size: 36px 36px;
 }
 
 #indice .unit-content .material .item .imagen.actividad:before {
