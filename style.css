@@ -1487,7 +1487,7 @@ hr {
     background: none;
     color: #000;
     position: absolute;
-    margin-top: 1px;
+    margin-top: 1px !important;
     margin-left: -2px;
     content: "\f00c";
     font-family: FontAwesome;
