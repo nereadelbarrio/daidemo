@@ -4103,10 +4103,9 @@ body:not(.edit) .back .bck-flipbox-section,body:not(.edit) .back .bck-flipbox-ti
 }
 
 #indice .unit-content .material .item .imagen.archivo:after {
-     background-image: url(images/icono_pdf_toc.png);
     background-color: #000;
     border-radius: 50%;
-    background-size: 44px 40px;
+    background-size: 80px;
 }
 
 #indice .unit-content .material .item .imagen.archivo:before {
@@ -4205,9 +4204,4 @@ a:hover {
     max-width: 83%;
 }
 }
-
-
-
-
-
 
