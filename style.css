@@ -4188,30 +4188,36 @@ a:hover {
 @media only screen and (max-width: 768px) {
 .bck-title-3 {
     max-width: 92.8%;
+    height: auto;
 }
 
 .bck-title-4 {
     max-width: 92.8%;
+    height: auto;
 }
 }
 
 @media only screen and (max-width: 1024px) and (min-width:868px) {
 .bck-title-3 {
     max-width: 92%;
+    height: auto;
 }
 
 .bck-title-4 {
     max-width: 92%;
+    height: auto;
 }
 }
 
 @media only screen and (max-width: 867px) and (min-width:375px) {
 .bck-title-3 {
     max-width: 83%;
+    height: auto;
 }
 
 .bck-title-4 {
     max-width: 83%;
+    height: auto;
 }
 }
 
@@ -4224,9 +4230,4 @@ a:hover {
     max-width: 83%;
 }
 }
-
-
-
-
-
 
