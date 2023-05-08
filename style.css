@@ -4123,7 +4123,7 @@ body:not(.edit) .back .bck-flipbox-section,body:not(.edit) .back .bck-flipbox-ti
 #indice .unit-content .material .item.activitytag_dai_actblink .imagen.actividad:after {
     background-color: #000;
     border-radius: 50%;
-    /*background-image: url(images/icono_acti_toc.png);*/
+    background-image: url(images/icono_acti_toc.png);
     background-size: 36px 36px;
 }
 /**/
@@ -4213,9 +4213,4 @@ a:hover {
     max-width: 83%;
 }
 }
-
-
-
-
-
 
