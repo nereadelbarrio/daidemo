@@ -1092,6 +1092,10 @@ background-color: #9ebac2;
     z-index: -1;
 }
 
+.slide_main .bck-enfasis-4 input {
+    max-width: 80%;
+}
+
 .bck-enfasis-5 {
     color: #000;
     font-weight: 700;
@@ -1225,6 +1229,7 @@ hr {
 
 #actividad .content .workspace.test ul li .bck-ul li:before {
     display: block;
+    margin-top: 15px;
 }
 
 #actividad .workspace.multiple-choice .opcion>ol,#actividad .workspace.multiple-choice .opcion>ul {
@@ -1690,7 +1695,7 @@ padding-left: 35px;
     background: none;
     color: #0056A4;
     position: absolute;
-    margin-top: 1px;
+    margin-top: 1px !important;
     margin-left: -2px;
     content: "\025b7";
     font-family: FontAwesome;
@@ -1727,7 +1732,7 @@ padding-left: 35px;
     background: none;
     color: #0056A4;
     position: absolute;
-    margin-top: -1px;
+    margin-top: -1px !important;
     margin-left: -2px;
     content: "\025a1";
     font-family: FontAwesome;
@@ -1759,7 +1764,7 @@ padding-left: 35px;
 #actividad .popover-content ul.bck-ul-9 li:before {
     background: none;
     position: absolute;
-    margin-top: -3px;
+    margin-top: -3px !important;
     margin-left: -2px;
     content: "\025a1";
     font-family: FontAwesome;
@@ -2654,7 +2659,8 @@ padding-left: 35px;
 }
 
 .checkbox-option label.filter-label:before,.radio-option label.filter-label:before,.slides_averages #cont_checkEvaluation label:before,.slides_averages #cont_checkSelfCorrect label:before,.slides_averages #cont_checkTemas label:before {
-    margin-top: -2px
+    /*margin-top: -2px*/
+    margin-top: 1px;
 }
 
 #actividad .workspace.memory .flip-container p {
@@ -4218,6 +4224,10 @@ a:hover {
 .bck-title-4 {
     max-width: 83%;
     height: auto;
+}
+
+.bck-enfasis-4 {
+        padding: 4px 10px;
 }
 }
 
