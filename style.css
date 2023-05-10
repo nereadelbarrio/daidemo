@@ -485,8 +485,9 @@ button.btn.btn-primary.disabled {
 }
 
 #indice .unit-content .material .item .imagen.url:after {
-    background-color: #000;
+background-color: #000;
     border-radius: 50%;
+    background-image: url(images/recurso-icon-url.png);
 }
 
 #indice .unit-content .actividades .item {
