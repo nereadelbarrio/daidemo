@@ -1200,6 +1200,24 @@ background-color: #9ebac2;
     font-weight: 700;
 }
 
+.bck-enfasis-18 {
+    position: relative;
+}
+
+.bck-enfasis-18:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    padding: 0;
+    border-top: 2px solid #000;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
 
 hr {
     border-top: 3px solid #000
